@@ -47,3 +47,34 @@ body {
     flex-direction: column;
     overflow: hidden; /* Clips the image corners to the border-radius */
 }
+
+/*Aligning the product cards to appear as 3 columns and to ensure the content is spaced out properly. */
+/* Product List Container */
+.product-list {
+  display: grid;                       
+  grid-template-columns: repeat(3, 1fr); /* 3 columns per row */
+  gap: 20px;                           /* spacing between products */
+  padding: 20px;
+}
+
+/* Product Card Styling */
+.product-item {
+  border: 1px solid #ddd;
+  padding: 15px;
+  background: #fff;
+  text-align: center;
+  box-sizing: border-box;              
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+  .product-list {
+    grid-template-columns: repeat(2, 1fr); /* 2 per row on tablets */
+  }
+}
+
+@media (max-width: 600px) {
+  .product-list {
+    grid-template-columns: 1fr;           /* 1 per row on phones */
+  }
+}
