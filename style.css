@@ -3,6 +3,8 @@ body {
   font-family: Arial, sans-serif;
 }
 
+/* Styling the header */
+
 /*styling the navigations links*/
 .navbar {
   display: flex;
@@ -10,6 +12,12 @@ body {
   padding: 15px;
   background: #264653;
   color: white;
+}
+/* Styling the navigation links to remover underline and change color to white */
+.navbar nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
 }
 
 /* Styling the products section */
