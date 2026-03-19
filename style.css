@@ -31,14 +31,14 @@ body {
 /* Container for the image to control the size */
 
 .product-item img {
-    width: 100%;            /* Fills the width of the card */
-    height: 300px;          /* Set a fixed height for all images */
-    object-fit: cover;      /* Crops the image to fit the area without distortion */
-    display: block;         /* Removes extra bottom spacing */
-    border-radius: 8px 8px 0 0; /* Optional: rounds top corners to match cards */
+    width: 100%;            
+    height: 300px;          
+    object-fit: cover;      
+    display: block;         
+    border-radius: 8px 8px 0 0; 
 }
 
-/* Optional: Ensure the product-item card has a consistent look */
+/* Styling to ensure the product-item card has a consistent look */
 .product-item {
     background: #fff;
     border: 1px solid #eee;
