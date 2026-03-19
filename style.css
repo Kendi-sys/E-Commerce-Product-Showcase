@@ -1,11 +1,11 @@
-/* 1. Base Styles */
+/* Adding base styles */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #f9f9f9; /*background color*/
 }
 
-/* 2. Header & Navigation */
+/* Styling the navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -26,7 +26,15 @@ body {
   color: #2a9d8f; /* Hover effect for the nav links */
 }
 
-/* 3. Product Grid Container */
+/*Styling our products header*/
+.products h2 {
+    text-align: center;     
+    font-size: 2.5rem;       
+    margin-bottom: 20px;   
+    font-weight: bold;        
+}
+
+/* Grid Container to style the product cards */
 .product-list {
   display: grid;                       
   grid-template-columns: repeat(3, 1fr); 
@@ -34,7 +42,7 @@ body {
   padding: 40px 5%; 
 }
 
-/* 4. Product Card styling using flexbox */
+/* Product Card styling using flexbox */
 .product-item {
   display: flex;                
   flex-direction: column;       
@@ -54,7 +62,7 @@ body {
   transform: translateY(-5px); /* Adds a premium "lift" on hover */
 }
 
-/* 5. Product Images (The "Elongation" Fix) */
+/* Styling product images to ensure they are of uniform size */
 .product-item img {
     width: 100%;            
     height: 250px;         
@@ -63,7 +71,7 @@ body {
     margin-bottom: 15px;    
 }
 
-/* 6. Text Styling inside Cards */
+/* Text Styling inside cards */
 .product-item h3, .product-item p {
     padding: 0 15px; 
     margin: 10px 0;
@@ -74,8 +82,24 @@ body {
     color: #264653;
     font-size: 1.1rem;
 }
+.product-item .rating {
+    color: #e76f51; 
+    font-size: 1.2rem;
+}
+/* Styling the footer === */
+footer {
+    text-align: center;
+    padding: 40px 20px;
+    background: rgba(0,0,0,0.6); /* Black footer background*/
+}
 
-/* 7. Responsive adjustments */
+.footer-links a {
+    color: white;             
+    text-decoration: none;     
+    font-weight: bold;         
+    margin: 0 10px;            
+}
+/* 8. Responsive adjustments */
 @media (max-width: 900px) {
   .product-list {
     grid-template-columns: repeat(2, 1fr); 
