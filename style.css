@@ -5,6 +5,7 @@ body {
   background-color: #f9f9f9; /*background color*/
 }
 
+
 /* Styling the navbar */
 .navbar {
   display: flex;
@@ -99,7 +100,7 @@ footer {
     font-weight: bold;         
     margin: 0 10px;            
 }
-/* 8. Responsive adjustments */
+/*Responsive adjustments */
 @media (max-width: 900px) {
   .product-list {
     grid-template-columns: repeat(2, 1fr); 
@@ -111,3 +112,4 @@ footer {
     grid-template-columns: 1fr;           
   }
 }
+
