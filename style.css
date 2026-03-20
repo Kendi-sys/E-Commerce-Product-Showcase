@@ -60,7 +60,7 @@ body {
 }
 
 .product-item:hover {
-  transform: translateY(-5px); /* Adds a premium "lift" on hover */
+  transform: translateY(-5px); /* Adding a premium lift upon hovering on the product card */
 }
 
 /* Styling product images to ensure they are of uniform size */
